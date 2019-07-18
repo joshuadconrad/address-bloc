@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/joshuadconrad/address-bloc/issues"
   },
-  "homepage": "https://github.com/joshuadconrad/address-bloc#readme"
+  "homepage": "https://github.com/joshuadconrad/address-bloc#readme",
+  "dependencies": {
+    "inquirer": "^6.5.0"
+  }
 }
