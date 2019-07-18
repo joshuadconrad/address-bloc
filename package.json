@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/joshuadconrad/address-bloc#readme",
   "dependencies": {
-    "inquirer": "^6.5.0"
+    "inquirer": "^6.5.0",
+    "nodemon": "^1.19.1"
   }
 }
