@@ -21,14 +21,23 @@ module.exports = class ContactController {
          validate(val){
            return val !== "";
          }
+       },
+       {
+         type: "input",
+         name: "email",
+         message: "Contact's email address - ",
+         validate(val){
+           return val !== "";
+         }
        }
      ];
   }
 
-  addContact(name, phone) {
+  addContact(name, phone, email) {
     return Contact.create({
       name,
-      phone
+      phone,
+      email
     });
   }
 
