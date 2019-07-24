@@ -6,7 +6,7 @@
     "host": "127.0.0.1",
     "dialect": "postgres",
     "logging": false,
-    "port": 20190720144155
+    "port": 5432
     },
   "test": {
     "username": "jconrad",
@@ -15,6 +15,6 @@
     "host": "127.0.0.1",
     "dialect": "postgres",
     "logging": false,
-    "port": 20190720144155
+    "port": 5432
   }
 }
